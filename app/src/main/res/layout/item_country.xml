@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:padding="5dp"
+    android:background="@drawable/ic_border"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_weight="3"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Country : "
+        android:id="@+id/id_country"
+        android:padding="5dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Region : "
+        android:id="@+id/id_region"
+        android:padding="5dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Subregion : "
+        android:id="@+id/id_subregion"
+        android:padding="5dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Capital : "
+        android:id="@+id/id_capital"
+        android:padding="5dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Population : "
+        android:id="@+id/id_population"
+        android:padding="5dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Languages  : "
+        android:id="@+id/id_lang"
+        android:padding="5dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Borders : "
+        android:id="@+id/id_borders"
+        android:padding="5dp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/id_imageview_flag"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+</LinearLayout>
